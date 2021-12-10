@@ -15,10 +15,59 @@ h2 {
 /*HEADER
 aca iran estilos del header
 */
+header{
+  width: 100%;
+  background-color: #9ECEFA;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.imagen_logo{
+  width: 139px;
+  height: 40px;
+  margin: 20px;
+}
+.navegacion_superior{
+  display: flex;
+  margin: 20px;
+}
+a{
+  text-decoration: none;
+  margin: 10px;
+}
+a:hover{
+  color: #87119A;
+  font-weight: bold;
+}
 
+/* Barra vertical delante de h2*/
+
+.barra_vertical_h2{
+  width: 8px;
+  height: 45px;
+  background-color: #87119A;
+  margin-right: 15px;
+  
+}
+h2{
+  font-size: 28px;
+  color: #87119A;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+p{
+  line-height: 2rem;
+}
 /*
 HOME
 aca iran estilos de la seccion home*/
+.figuras_nosotros{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
 /*
 SERVICIOS
