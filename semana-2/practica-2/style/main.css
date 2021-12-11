@@ -6,7 +6,11 @@ etiquetas globales
 body {
   font-size: 16px;
   font-family: arial;
-}
+  }
+
+main{
+  margin-left: 40px;
+}  
 
 h2 {
   font-size: 24px;
@@ -55,10 +59,13 @@ h2{
   font-weight: bold;
   display: flex;
   align-items: center;
-  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 p{
   line-height: 2rem;
+  margin-bottom: 30px;
+  
 }
 /*
 HOME
@@ -72,15 +79,72 @@ aca iran estilos de la seccion home*/
 /*
 SERVICIOS
 aca iran estilos de la seccion servicios*/
+.figuras_servicios_arriba{
+  display: flex;
+  justify-content: center;
+}
+.figuras_servicios_abajo{
+  display: flex;
+  justify-content: center;
+}
+.img_servicios{
+  margin: 40px;
 
+}
 /*
 PORTAFOLIO
 aca iran estilos de la seccion portafolio*/
 
+
+.imgs_portafolio{
+  width: 250px;
+}
+.img_portaf_sup{
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 /*
 CONTACTO
 aca iran estilos de la seccion contacto*/
+.contacto{
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 300px;
+}
+.img_contacto{
+  width: 500px;
+}
+.contacto_datos{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.contacto_datos_arriba{
+  margin-top: 30px;
+  margin-left: 30px;
+}
 
 /*
 FOOTER
 aca iran estilos de la seccion footer*/
+
+footer{
+  /* padding: 20px;
+  height: 20px; */
+  /* width: 100%; */
+  height: 100px;
+  background-color: #9ECEFA;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.derechos{  
+  margin-left: 30px;
+}
+.desarrollador{
+  margin-right: 30px;
+} 
