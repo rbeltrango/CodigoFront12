@@ -1,0 +1,22 @@
+.cabeza{
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    
+}
+
+.ojo1,
+.ojo2{    
+    font-size: 1.5rem;
+    width: 30px;
+    height: 30px;
+    background-color: rgb(152, 190, 46);
+}
+
+.ojo1{
+    position: absolute;
+    right: 25%;    
+    bottom: 0px;
+
+}
