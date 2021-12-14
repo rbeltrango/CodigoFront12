@@ -14,7 +14,7 @@ header{
     position: relative;
 }
 .codigo{
-    /* background-color: red; */
+   
     position: absolute;
     right: 35%;
     top: 12%;   
@@ -34,8 +34,7 @@ header{
 .sobre_mi{
     height: 424px;
     background: #7299FE;
-    /* display: flex;
-    flex-direction: column; */
+    
 }
 h2{
     height: 80px;
@@ -44,8 +43,7 @@ h2{
     justify-content: center;
     align-items: center;
     font-weight: 700;
-    /* padding-top: 15px; */
-    /* padding-bottom: 15px; */
+   
 }
 
 .h2_sobre_mi{    
@@ -165,7 +163,7 @@ a:link{
 .caja2_portafolio{
     width: 593px;
     height: 198px;
-    /* background-color: red; */
+    
     position: absolute;
     right:183.5px ;
     bottom: 100px;
@@ -197,7 +195,7 @@ a:link{
 }
 .h2_texto_clientes{
     color: #ADFF28;
-    /* background-color: blue; */
+    
 }
 .caja2_clientes{
     width: 820px;
