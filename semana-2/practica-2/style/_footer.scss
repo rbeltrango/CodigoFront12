@@ -1,0 +1,16 @@
+footer{
+    
+    height: 100px;
+    background-color: #9ECEFA;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: $font-size-footer;
+  }
+  
+  .derechos{  
+    margin-left: 30px;
+  }
+  .desarrollador{
+    margin-right: 30px;
+  } 

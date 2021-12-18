@@ -1,0 +1,25 @@
+main{
+    padding: 40px;
+  }  
+  .barra_vertical_h2{
+    width: 8px;
+    height: 45px;
+    background-color: #87119A;
+    margin-right: 15px;
+    }
+  
+  h2{
+    font-size: $font-size-h2;
+    color: #87119A;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  p{
+    font-size: $font-size-parrafo;
+    line-height:$line-height-parrafo;
+    margin-bottom: 30px;
+    
+  }

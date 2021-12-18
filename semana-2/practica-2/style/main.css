@@ -3,148 +3,180 @@ GLOBAL
 estilos globales, aca ira los selectores de 
 etiquetas globales
 */
+html {
+  font-size: 62.5%;
+}
+
 body {
-  font-size: 16px;
   font-family: arial;
-  }
-
-main{
-  margin-left: 40px;
-}  
-
-h2 {
-  font-size: 24px;
 }
 
 /*HEADER
 aca iran estilos del header
 */
-header{
+header {
   width: 100%;
   background-color: #9ECEFA;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
-.imagen_logo{
+
+.imagen_logo {
   width: 139px;
   height: 40px;
   margin: 20px;
 }
-.navegacion_superior{
+
+.navegacion_superior {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 20px;
 }
-a{
+
+a {
   text-decoration: none;
   margin: 10px;
 }
-a:hover{
+
+a:hover {
   color: #87119A;
   font-weight: bold;
 }
 
-/* Barra vertical delante de h2*/
+main {
+  padding: 40px;
+}
 
-.barra_vertical_h2{
+.barra_vertical_h2 {
   width: 8px;
   height: 45px;
   background-color: #87119A;
   margin-right: 15px;
-  
 }
-h2{
-  font-size: 28px;
+
+h2 {
+  font-size: 2.4rem;
   color: #87119A;
   font-weight: bold;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: 20px;
   margin-bottom: 20px;
 }
-p{
-  line-height: 2rem;
+
+p {
+  font-size: 1.6rem;
+  line-height: 3.4rem;
   margin-bottom: 30px;
-  
-}
-/*
-HOME
-aca iran estilos de la seccion home*/
-.figuras_nosotros{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
 }
 
-/*
-SERVICIOS
-aca iran estilos de la seccion servicios*/
-.figuras_servicios_arriba{
+.figuras_nosotros {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
-.figuras_servicios_abajo{
+
+.figuras_servicios_arriba {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
-.img_servicios{
+
+.figuras_servicios_abajo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.img_servicios {
   margin: 40px;
-
 }
-/*
-PORTAFOLIO
-aca iran estilos de la seccion portafolio*/
 
-
-.imgs_portafolio{
+.imgs_portafolio {
   width: 250px;
 }
-.img_portaf_sup{
+
+.img_portaf_sup {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
 }
 
-/*
-CONTACTO
-aca iran estilos de la seccion contacto*/
-.contacto{
+.contacto {
   /* background-color: blueviolet; */
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   margin-bottom: 300px;
 }
-.img_contacto{
+
+.img_contacto {
   width: 500px;
 }
-.contacto_datos{
+
+.contacto_datos {
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-.contacto_datos_arriba{
+
+.contacto_datos_arriba {
   margin-top: 30px;
   margin-left: 30px;
 }
 
-/*
-FOOTER
-aca iran estilos de la seccion footer*/
-
-footer{
-  /* padding: 20px;
-  height: 20px; */
-  /* width: 100%; */
+footer {
   height: 100px;
   background-color: #9ECEFA;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.6rem;
 }
 
-.derechos{  
+.derechos {
   margin-left: 30px;
 }
-.desarrollador{
+
+.desarrollador {
   margin-right: 30px;
-} 
+}
