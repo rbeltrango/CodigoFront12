@@ -1,0 +1,30 @@
+header{
+    
+    width: 960px;
+    height:525px;
+    background-image: url(../imagenes/image0.png);
+    position: relative;
+}
+.codigo{
+   
+    position: absolute;
+    right: 35%;
+    top: 12%;   
+}
+.hola {
+    background: rgb(114, 153, 254, 0.5);
+    padding: 15px;
+    border-radius: 10px;    
+    font-size: $font-size-header;
+    line-height: 42px;
+    font-weight: 700;    
+    position: absolute;
+    left: 10%;
+    bottom: 30%;
+}
+
+.sobre_mi{
+    height: 424px;
+    background: #7299FE;
+    
+}

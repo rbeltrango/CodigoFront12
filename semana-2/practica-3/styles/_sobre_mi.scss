@@ -1,0 +1,29 @@
+p{
+    font-size: $font-size-parrafo;
+    line-height: $line-height-parrafo;
+    padding-left: 41px;
+    padding-right: 41px;
+   
+}
+
+.ver_cv_caja{
+    height: 100%;
+    position: relative;
+}
+.ver_cv_hijo{
+    font-size: 22px;
+    text-decoration: none;
+    background-color: #D16FFF;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20px;
+    left: 41px;   
+}
+
+a:link{
+    color: white;
+}
