@@ -1,0 +1,7 @@
+Bootstrap 4.4.4.1
+Clases CSS Layout
+    Contenedor
+        container
+            centrar el contenido
+        container-tamaño
+        container-fluid
